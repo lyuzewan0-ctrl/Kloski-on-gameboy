@@ -1,0 +1,19 @@
+# Preserve the original project files byte for byte across platforms.
+/main.asm -text
+/data.inc -text
+/hardware.inc -text
+/compile.bat -text
+/.vscode/launch.json -text
+/main.gb binary
+/main.o binary
+/report.pdf binary
+/Klotski.pptx binary
+
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.sha256 text eol=lf
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+*.png binary
+*.pdf binary
